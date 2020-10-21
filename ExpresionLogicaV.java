@@ -81,13 +81,12 @@ public class ExpresionLogicaV {
         aux=OperacionCondicional(p,q);
         aux=OperacionConjuncion(aux,p);
         p=OperacionNegacion(p);
-        
-        
         aux= OperacionCondicional(aux,q);
+        
         for(int i=0;i<aux.length;i++){
             System.out.println("Solución: "+aux[i]);
         }
 
     }
-    }
+  }
 
