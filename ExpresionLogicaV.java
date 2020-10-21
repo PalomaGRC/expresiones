@@ -79,8 +79,6 @@ public class ExpresionLogicaV {
         
         
         aux=OperacionCondicional(p,q);
-       
-        
         aux=OperacionConjuncion(aux,p);
         p=OperacionNegacion(p);
         
